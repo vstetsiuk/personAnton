@@ -205,53 +205,53 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
 
    .sub span{
-      font-size: 14px;
+      font-size: 18px;
       line-height: 20px;
    }
    
    .curency{
-      font-size: 17px;
+      font-size: 20px;
       line-height: 20px;
    }
    .curency span{
-      font-size: 14px;
+      font-size: 16px;
    }
 
    .title {
-      font-size: 22px;
-      line-height: 20px;
+      font-size: 30px;
+      line-height: 28px;
    }
    
    .text{
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 17px;
+      line-height: 24px;
    }
    
    .info-title{
-      font-size: 20px;
+      font-size: 22px;
       line-height: 20px;
    
    }
    
    .info-contact-it-1{
-      font-size: 12px;
+      font-size: 15px;
       line-height: 20px;
       margin-bottom: 30px;
    }
 
 
    .person-img img{
-      max-width: 240px;
-      max-height: 400px;
+      max-width: 440px;
+      max-height: 500px;
       /* mix-blend-mode: darken; */
       /* opacity: 0.5; */
    }
 
    .nav-list-pages a img{
-      max-width: 65px;
+      max-width: 75px;
    }
 
 }
