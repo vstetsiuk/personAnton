@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Inspiration&family=Montserrat:ital,wght@1,100&family=Raleway&family=Roboto+Mono:wght@500&family=Roboto:wght@300&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.wrapper{
+   background-image: url(https://i.pinimg.com/originals/9a/6d/87/9a6d87c60be508f26b23cf8fba7c1566.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+
+/* section */
+.section{
+   padding-top: 5%;
+   width: 97%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+/* main-info */
+
+.main-info{
+   background-color: #212121;
+   height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 87%;
+   border-radius: 15px;
+   /* filter: drop-shadow(0px 4px 50px #000000); */
+   box-shadow: 0px 4px 50px #000000;
+}
+
+.block-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 85%;
+   margin: 0 auto;
+}
+
+.background{
+   width: 100%;
+   /* background-color: #FF4500; */
+   background-image: url(../images/Frame\ 9-2.svg);
+   /* background-repeat: no-repeat;
+   background-size: cover; */
+}
+
+/* nav-links */
+
+.nav-list-pages{
+   height: 80vh;
+   background-color: #212121;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+   /* filter: drop-shadow(0px 4px 50px #000000); */
+   box-shadow: 0px 4px 50px #000000;
+}
+
+.nav-list-pages:hover{
+   transform: scale(1.01);
+   box-shadow: 0px 0px 50px 5px #FF4500;
+}
+
+.nav-list-pages a{
+   opacity: 0.8;
+}
+
+.nav-list-pages a:hover{
+   opacity: 1;
+   transform: scale(1.1);
+}
+
+.person-img img{
+   border-radius: 20px;
+   box-shadow: 0px 4px 100px 10px #000000;
+   max-width: 440px;
+   max-height: 660px;
+   filter: brightness(0.9);
+}
+
+
+/* text */
+.sub span{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 28px;
+   /* identical to box height, or 117% */
+   text-align: center;
+   color: #FFFFFF;
+   opacity: 0.7;
+}
+
+.curency{
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 28px;
+   /* identical to box height, or 117% */
+   color: #FFFFFF;
+   opacity: 0.7;
+}
+.curency span{
+   font-size: 20px;
+}
+
+.curency span:first-child{
+  color: #FF4500;
+}
+.sub{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 98%;
+}
+
+.title {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 42px;
+   line-height: 30px;
+   /* identical to box height, or 94% */
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   color: #FFFFFF;
+   text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+   text-shadow: 0px 4px 10px #000000;
+   margin-bottom: 3%;
+   margin-top: 10%;
+}
+
+.text{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+   /* or 165% */
+   /* display: flex;
+   align-items: center;
+   text-align: center; */
+   color: #FFFFFF;
+   opacity: 0.7;
+   width: 90%;
+   margin-bottom: 5%;
+}
+
+.info-title{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 28px;
+   /* identical to box height, or 165% */
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   color: #FFFFFF;
+   text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);
+   margin-bottom: 5%;
+
+}
+
+.info-contact-it-1{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 28px;
+   /* identical to box height, or 165% */
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   color: #FFFFFF;
+   margin-bottom: 30px;
+}
+
+.info-contact{
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+}
+
+.person-block{
+   width: 60%;
+}
