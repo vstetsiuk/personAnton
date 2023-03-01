@@ -223,6 +223,7 @@
    .title {
       font-size: 30px;
       line-height: 28px;
+      margin-top: 5%;
    }
    
    .text{
@@ -233,7 +234,6 @@
    .info-title{
       font-size: 22px;
       line-height: 20px;
-   
    }
    
    .info-contact-it-1{
@@ -244,8 +244,8 @@
 
 
    .person-img img{
-      max-width: 440px;
-      max-height: 500px;
+      max-width: 400px;
+      max-height: 440px;
       /* mix-blend-mode: darken; */
       /* opacity: 0.5; */
    }
